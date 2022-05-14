@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="MotorShow" id="MotorShow0">
+  <void class="MotorShow" method="getField">
+   <string>Title</string>
+   <void method="set">
+    <object idref="MotorShow0"/>
+    <string>Ralf</string>
+   </void>
+  </void>
+ </object>
+<void class="ApplicationDiscount" method="getField">
+ <string>Discount</string>
+ <void method="set">
+  <object class="ApplicationDiscount" id="ApplicationDiscount0">
+   <void property="FIO">
+    <string>Иванов Иван Иванович</string>
+   </void>
+   <void property="car">
+    <object class="Car" id="Car0">
+     <void property="brand">
+      <string>Porsche</string>
+     </void>
+     <void property="maxPassenger">
+      <int>2</int>
+     </void>
+     <void property="price">
+      <int>60000</int>
+     </void>
+    </object>
+   </void>
+   <void property="phoneNumber">
+    <string>8-800-555-35-35</string>
+   </void>
+  </object>
+  <double>6.0</double>
+ </void>
+</void>
+<void class="Car" id="Field0" method="getField">
+ <string>applications</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Car0"/>
+  <void method="add">
+   <object class="ApplicationNoDiscount">
+    <void property="FIO">
+     <string>Петров Петр Петрович</string>
+    </void>
+    <void property="car">
+     <object idref="Car0"/>
+    </void>
+    <void property="phoneNumber">
+     <string>8-800-555-35-36</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="ApplicationNoDiscount">
+    <void property="FIO">
+     <string>Александров Александр Александрович</string>
+    </void>
+    <void property="car">
+     <object idref="Car0"/>
+    </void>
+    <void property="phoneNumber">
+     <string>8-800-555-35-37</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="ApplicationDiscount0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="Car" id="Field1" method="getField">
+ <string>applications</string>
+ <void id="ArrayList1" method="get">
+  <object class="Car" id="Car1">
+   <void property="brand">
+    <string>BMV</string>
+   </void>
+   <void property="maxPassenger">
+    <int>5</int>
+   </void>
+   <void property="price">
+    <int>23000</int>
+   </void>
+  </object>
+  <void method="add">
+   <object class="ApplicationNoDiscount">
+    <void property="FIO">
+     <string>Кондратьев Владимир Тимурович</string>
+    </void>
+    <void property="car">
+     <object idref="Car1"/>
+    </void>
+    <void property="phoneNumber">
+     <string>8-800-555-35-39</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="ApplicationDiscount" id="ApplicationDiscount1">
+    <void class="ApplicationDiscount" method="getField">
+     <string>Discount</string>
+     <void method="set">
+      <object idref="ApplicationDiscount1"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void property="FIO">
+     <string>Васильев Михаил Петрович</string>
+    </void>
+    <void property="car">
+     <object idref="Car1"/>
+    </void>
+    <void property="phoneNumber">
+     <string>8-800-555-35-38</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="MotorShow" id="Field2" method="getField">
+ <string>cars</string>
+ <void id="ArrayList2" method="get">
+  <object idref="MotorShow0"/>
+  <void method="add">
+   <object idref="Car1"/>
+  </void>
+  <void method="add">
+   <object idref="Car0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+</java>
